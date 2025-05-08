@@ -1,5 +1,5 @@
 streamlit==1.45.0
-xgboost==1.7.6
+xgboost==2.0.3
 pandas==2.2.2
 numpy==1.26.4
 plotly==5.21.0
