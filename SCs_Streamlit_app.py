@@ -277,37 +277,3 @@ if st.button("🔍 Predict Surface Chloride Concentration", key="predict_button"
     st.plotly_chart(fig)
 
 
-# --- Footer ---
-st.markdown("""
-    <hr>
-    <div style='display: flex; justify-content: space-between; color: black; font-size: 14px;'>
-        <div>
-            <strong>Developed by:</strong><br>
-            H. Sami Ullah<br>
-            Graduate Research Assistant<br>
-            MatSlab, NJIT
-        </div>
-        <div>
-            <strong>Supervised by:</strong><br>
-            <div style='display: flex; gap: 40px;'>
-                <div>
-                    Mathew J. Bandelt<br>
-                    Associate Professor,<br>
-                    Co-Director MatSlab,<br>
-                    NJIT
-                </div>
-                <div>
-                    Matthew P. Adams<br>
-                    Associate Professor,<br>
-                    Co-Director MatSlab,<br>
-                    NJIT
-                </div>
-            </div>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
-
-
-
-
-#streamlit run "c:/Users/hu32/Desktop/Ensemble ML/Chloride Content/GUI/SCs_Streamlit_app.py"
