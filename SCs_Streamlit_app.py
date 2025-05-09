@@ -265,16 +265,17 @@ if st.button("🔍 Predict Surface Chloride Concentration", key="predict_button"
         xaxis_title='Exposure Time [years]',
         yaxis_title='SCs [% mass]',
         xaxis=dict(
-            title_font=dict(size=14, color='black', family='Arial'),
-            tickfont=dict(size=12, color='black')
+            title_font=dict(size=14, family='Arial Bold'),
+            tickfont=dict(size=12)
         ),
         yaxis=dict(
-            title_font=dict(size=14, color='black', family='Arial'),
-            tickfont=dict(size=12, color='black')
+            title_font=dict(size=14, family='Arial Bold'),
+            tickfont=dict(size=12)
         ),
         template='plotly_white'
     )
     st.plotly_chart(fig)
+
 
 # --- Footer ---
 st.markdown("""
