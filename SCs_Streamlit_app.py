@@ -285,7 +285,8 @@ st.markdown("""
             <strong>Developed by:</strong><br>
             Haji Sami Ullah<br>
             Graduate Research Assistant<br>
-            MatSlab, NJIT
+            MatSlab,<br>
+            NJIT, USA
         </div>
         <div>
             <strong>Supervised by:</strong><br>
@@ -294,13 +295,13 @@ st.markdown("""
                     Matthew J. Bandelt<br>
                     Associate Professor,<br>
                     Co-Director MatSlab,<br>
-                    NJIT
+                    NJIT, USA
                 </div>
                 <div>
                     Matthew P. Adams<br>
                     Associate Professor,<br>
                     Co-Director MatSlab,<br>
-                    NJIT
+                    NJIT, USA
                 </div>
             </div>
         </div>
