@@ -66,6 +66,7 @@ The tool operates based on an embedded **XGBoost** machine learning model, train
 Please ensure that the mix design inputs fall within realistic and acceptable ranges. The tool automatically validates the following:
 
 •	**Water-to-Binder Ratio: 0.30–0.70**
+
 •	**Batch Volume: 0.95–1.05 m³**
 
 This intuitive interface can be used for both academic research and industrial applications to support informed decision-making in marine concrete durability design.   
