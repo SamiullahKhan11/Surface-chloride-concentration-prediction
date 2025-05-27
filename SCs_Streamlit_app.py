@@ -60,7 +60,7 @@ st.markdown(
 # --- Instruction Note ---
 st.markdown("### ℹ️ About This Tool")
 st.write("""
-This tool is developed to predict **surface chloride concentration [% mass]** in concrete exposed to marine environments. Predictions are made across a 30-year exposure period. 
+This tool is developed to predict **surface chloride concentration [mass %]** in concrete exposed to marine environments. Predictions are made across a 30-year exposure period. 
 Please ensure the mix design inputs are within realistic and acceptable ranges. This tool validates:
 - **Water-to-Binder Ratio (0.3–0.7)**
 - **Batch Volume (0.95–1.05 m³)**   
@@ -283,7 +283,7 @@ st.markdown("""
     <div style='display: flex; justify-content: space-between; color: #1E90FF; font-size: 14px;'>
         <div>
             <strong>Developed by:</strong><br>
-            H. Sami Ullah<br>
+            Haji Sami Ullah<br>
             Graduate Research Assistant<br>
             MatSlab, NJIT
         </div>
@@ -291,7 +291,7 @@ st.markdown("""
             <strong>Supervised by:</strong><br>
             <div style='display: flex; gap: 40px;'>
                 <div>
-                    Mathew J. Bandelt<br>
+                    Matthew J. Bandelt<br>
                     Associate Professor,<br>
                     Co-Director MatSlab,<br>
                     NJIT
