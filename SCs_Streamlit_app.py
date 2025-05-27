@@ -239,7 +239,7 @@ if st.button("🔍 Predict Surface Chloride Concentration", key="predict_button"
         <thead>
             <tr>
                 <th>Exposure Time [years]</th>
-                <th>Predicted SCs [% mass]</th>
+                <th>Predicted Cs [mass %]</th>
             </tr>
         </thead>
         <tbody>
@@ -263,7 +263,7 @@ if st.button("🔍 Predict Surface Chloride Concentration", key="predict_button"
     fig.update_layout(
         title='Predicted Surface Chloride Concentration over Time',
         xaxis_title='Exposure Time [years]',
-        yaxis_title='Cs [% mass]',
+        yaxis_title='Cs [mass %]',
         xaxis=dict(
             title_font=dict(size=14, family='Arial Bold'),
             tickfont=dict(size=12)
