@@ -290,8 +290,8 @@ st.markdown("""
         <div>
             <strong>Developed by:</strong><br>
             Haji Sami Ullah<br>
-            Graduate Research Assistant<br>
-            MatSlab,<br>
+            Graduate Research Assistant,<br>
+            Member MatSlab,<br>
             NJIT, USA
         </div>
         <div>
@@ -313,6 +313,7 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
