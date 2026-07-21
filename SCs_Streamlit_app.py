@@ -117,6 +117,26 @@ div.stButton > button:first-child:focus {
 </style>
 """, unsafe_allow_html=True)
 
+
+# --- Load and Encode Logo ---
+script_directory = os.path.dirname(os.path.abspath(__file__))
+logo_path = os.path.join(script_directory, "NJIT_logo.png")
+
+with open(logo_path, "rb") as image_file:
+    base64_image = base64.b64encode(image_file.read()).decode()
+
+# --- Display Centered Logo ---
+st.markdown(
+    f"""
+    <div style='text-align: center;'>
+        <img src='data:image/png;base64,{base64_image}' width='600'/>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 # ==========================================================
 # Title
 # ==========================================================
