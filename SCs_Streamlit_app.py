@@ -224,7 +224,6 @@ corrosion, reliability, and decision-support results.
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # Step 1
