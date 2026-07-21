@@ -135,13 +135,13 @@ with open(logo_path, "rb") as image_file:
 st.markdown(
     f"""
     <div style='text-align: center;'>
-        <img src='data:image/png;base64,{base64_image}' width='1000'/>
+        <img src='data:image/png;base64,{base64_image}' width='2000'/>
     </div>
     """,
     unsafe_allow_html=True
 )
 
-
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ==========================================================
 # Title
