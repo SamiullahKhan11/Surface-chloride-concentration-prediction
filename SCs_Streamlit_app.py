@@ -478,7 +478,6 @@ if predict:
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 2 - CORROSION PROFILE PREDICTION
@@ -933,7 +932,6 @@ if predict:
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 3 - LIFE CYCLE COST ANALYSIS (LCCA)
