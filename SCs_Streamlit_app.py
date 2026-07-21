@@ -366,14 +366,6 @@ with col1:
 with col2:
     st.success(f"UHPC Overlay Deck = **{uhpc_year} years**")
 
-# ==========================================================
-# Check Models
-# ==========================================================
-if model_concrete is not None and model_uhpc is not None:
-    st.success("✅ Both Gaussian Process Regression models loaded successfully.")
-else:
-    st.error("One or more trained models could not be loaded.")
-
 
 # ==========================================================
 # Predict Chloride Profiles
