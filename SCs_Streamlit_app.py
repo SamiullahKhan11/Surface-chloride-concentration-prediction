@@ -2018,7 +2018,6 @@ text-align:left;
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 4 - FLEXURAL RELIABILITY ANALYSIS
@@ -2799,7 +2798,6 @@ else:
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 5
@@ -3554,7 +3552,6 @@ if predict_bdvi:
   
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.divider()
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # CLOSING REMARKS / FOOTER
