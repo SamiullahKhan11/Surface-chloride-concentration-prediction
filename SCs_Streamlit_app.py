@@ -126,7 +126,7 @@ from pathlib import Path
 import base64
 
 script_directory = Path(__file__).parent
-logo_path = script_directory / "NJIT_logo.png"
+logo_path = script_directory / "NJDoT_Logo.png"
 
 with open(logo_path, "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode()
@@ -3577,7 +3577,6 @@ if predict_bdvi:
     st.markdown(table_html, unsafe_allow_html=True)
   
 st.markdown("<br><br>", unsafe_allow_html=True)
-st.divider()
 
 # ====================================================================================================================
 # CLOSING REMARKS / FOOTER
