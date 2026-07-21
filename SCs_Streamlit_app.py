@@ -222,7 +222,10 @@ corrosion, reliability, and decision-support results.
 """
 )
 
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
+
 # ====================================================================================================================
 # Step 1
 # ====================================================================================================================
@@ -474,7 +477,9 @@ if predict:
 
     st.pyplot(fig)
 
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 2 - CORROSION PROFILE PREDICTION
@@ -927,7 +932,9 @@ if predict:
 
 
 
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 3 - LIFE CYCLE COST ANALYSIS (LCCA)
@@ -2012,7 +2019,9 @@ text-align:left;
     )
 
 
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 4 - FLEXURAL RELIABILITY ANALYSIS
@@ -2791,7 +2800,9 @@ else:
 
 
 
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # STEP 5
@@ -3544,7 +3555,9 @@ if predict_bdvi:
 
     st.markdown(table_html, unsafe_allow_html=True)
   
-<br><br>
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # ====================================================================================================================
 # CLOSING REMARKS / FOOTER
