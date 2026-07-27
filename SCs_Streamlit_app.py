@@ -3227,11 +3227,11 @@ if predict_bdvi:
 
     BDVI_u_drop = (
 
-        (BDVI_u_initial - BDVI_u_plot)
+        (1 - BDVI_u_plot)
 
         /
 
-        BDVI_u_initial
+        1
 
         * 100
 
